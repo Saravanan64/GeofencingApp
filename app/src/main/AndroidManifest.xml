@@ -33,26 +33,26 @@
             android:value="@string/google_maps_key" />
 
         <receiver
-            android:name=".GeofenceBroadcastReceiver"
+            android:name="com.sample.geofencingapp.GeofenceBroadcastReceiver"
             android:enabled="true"
             android:exported="true">
         </receiver>
 
         <receiver
-            android:name=".AlarmReceiver"
+            android:name="com.sample.geofencingapp.AlarmReceiver"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.sample.geofencingapp.MapsActivity"
             android:label="@string/title_activity_maps"/>
         <activity android:name=".LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.sample.geofencingapp.WelcomeActivity"
             android:theme="@style/Theme.AppCompat.Translucent" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.sample.geofencingapp.RegisterActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
